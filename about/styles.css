@@ -31,6 +31,11 @@ Input Border Bottom (Focus): #967343
 
 body {
   background-color: #F2F1E8;
+  background-image: url("../images/background-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #131511;
   font-family: Merriweather, Georgia, serif;
   line-height: 2em;
@@ -102,9 +107,10 @@ body a:hover {
 }
 
 .main-content {
-  margin: 25px 50px;
+  background-color: #F2F1E8;
+  /*margin: 25px 50px;*/
   width: 100vw;
-  padding: 0 15vw;
+  padding: 25px 15vw;
 }
 
 blockquote {
@@ -117,9 +123,10 @@ blockquote {
 .main-image {
   width: 100vw;
   height: 50vh;
-  background: url("../images/background-3.jpg");
+  background-color: transparent;
+  /*background: url("../images/background-3.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: cover;*/
   display: flex;
   justify-content: center;
   align-items: center;
