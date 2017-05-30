@@ -83,6 +83,7 @@ nav a:hover {
 h1 {
   margin: 50px;
   font-size: 4em;
+  line-height: 1em;
   font-weight: normal;
 }
 
@@ -96,6 +97,7 @@ main {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  align-content: center;
 }
 
 body a:link {
