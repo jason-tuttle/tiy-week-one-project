@@ -1,0 +1,196 @@
+/*
+Use the following colors for your layout:
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background-color: #F2F1E8;
+  color: #131511;
+  font-family: Merriweather, Georgia, serif;
+}
+
+header {
+  background-color: #FFFFFF;
+  color: #2B2F26;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px 20px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  box-shadow: 0 2px 8px grey;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav p {
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+nav a:link, nav a:visited {
+  color: #2B2F26;
+}
+nav a:hover {
+  color: #CD5D67;
+  transition: all 0.5s;
+}
+
+#link-active {
+  color: #968772;
+}
+
+.main-header {
+  margin: 50px;
+
+}
+
+.main-title {
+  text-align: center;
+  font-size: 4em;
+}
+.main-subtitle {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.image-container {
+  width: 95vw;
+  /*height: 60vh;*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.image-container div {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+.image-label-top {
+  align-self: flex-start;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.image-label-bottom {
+  align-self: flex-start;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.top-row-reg {
+  height: 50vh;
+  flex: 1;
+}
+
+.top-row-large {
+  height: 50vh;
+  flex: 3;
+}
+
+.bottom-row-reg {
+  height: 30vh;
+  flex: 1;
+}
+
+.bottom-row-large {
+  height: 30vh;
+  flex: 2;
+}
+
+footer {
+  height: 4em;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1.5em;
+}
+
+#cactus {
+  background: url("images/product-1.jpg") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  margin: 5px;
+}
+#bowls {
+  background: url("images/product-2.jpg") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  margin: 5px;
+}
+#tray {
+  background: url("images/product-3.jpg") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  margin: 5px;
+}
+#mug {
+  background: url("images/product-4.jpg") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  margin: 5px;
+}
+#vase {
+  background: url("images/product-5.jpg") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  margin: 5px;
+}
+#bowl-vase {
+  background: url("images/product-6.jpg") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  margin: 5px;
+}
+#cup-saucer {
+  background: url("images/product-7.jpg") no-repeat;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  margin: 5px;
+}

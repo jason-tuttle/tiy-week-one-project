@@ -1,0 +1,153 @@
+/*
+Use the following colors for your layout:
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background-color: #F2F1E8;
+  color: #131511;
+  font-family: Merriweather, Georgia, serif;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #FFFFFF;
+  color: #2B2F26;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px 20px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  box-shadow: 0 2px 8px grey;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav p {
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+nav a:link, nav a:visited {
+  color: #2B2F26;
+}
+nav a:hover {
+  color: #CD5D67;
+  transition: all 0.5s;
+}
+
+#link-active {
+  color: #968772;
+}
+
+main {
+  background-image: url(../images/background-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: white;
+  margin: 100px 0;
+  padding: 25px;
+  width: 50vw;
+  height: 60%;
+  align-self: flex-start;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: lighter;
+}
+h4 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+form {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: grey;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 60%;
+}
+
+/*.form-name-container, .form-email-container {
+  border-bottom: 2px solid #968772;
+}*/
+
+#nameInput, #emailInput {
+  width: 100%;
+  color: grey;
+  border-bottom: 2px solid #968772;
+}
+
+#nameInput:focus, #emailInput:focus {
+  border-bottom: 2px solid #967343;
+}
+
+
+.form-submit-container {
+  background-color: #968772;
+  align-self: center;
+}
+
+#signupButton {
+  color: #F2F1E8;
+  background-color: transparent;
+  padding: 20px 30px;
+}
+
+footer {
+  height: 4em;
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  padding: 1.5em;
+}
