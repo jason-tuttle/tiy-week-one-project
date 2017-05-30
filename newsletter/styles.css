@@ -66,6 +66,7 @@ nav p {
 nav a:link, nav a:visited {
   color: #2B2F26;
 }
+
 nav a:hover {
   color: #CD5D67;
   transition: all 0.5s;
@@ -143,6 +144,10 @@ form {
   color: #F2F1E8;
   background-color: transparent;
   padding: 20px 30px;
+}
+
+#signupButton:hover {
+  color: #FFFFFF;
 }
 
 footer {
